@@ -1,0 +1,35 @@
+1: File Upload
+2: Conversion Method | Text Method <> Background Method <> Multi-Text Method
+3: Size |Manually-Set Size <> Min-Maxed <> Best Fit <> Brute Force
+4: Download | .mcfunction <> Datapack
+
+Implementations:
+IMAGE FORMATS
+[X] PNG Support
+[ ] JPG Support
+[ ] GIF Support
+CONVERSION METHODS
+[X] Text Method (2 mil character limit)
+[ ] Multi-Text Method (multiple text displays)
+[ ] Background Method (single text display per color)
+SAMPLING METHODS
+[ ] Nearest Neighbor Sampling
+[ ] Bilinear Sampling
+[ ] Bicubic Sharpener Sampling
+SCALING METHODS
+[ ] In-house Image Scaling
+[ ] Manual - User Defined
+[ ] Min-Max - Max size for the worst case scenario
+[ ] Best Fit - Divide and conquer
+[ ] Brute Force - Shrink by pixel ratio every try (i.e. 16x9)
+DOWNLOADING
+[ ] .mcfunction Download
+[ ] Integrated Datapack Download
+[ ] Version Select
+WEBSITE
+[ ] Basic Interface
+[ ] Style
+[ ] File Upload
+[ ] File Download
+OTHER
+[ ] Alpha Channel

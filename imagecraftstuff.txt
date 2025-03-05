@@ -1,0 +1,13 @@
+summon text_display ~ ~ ~ {Tags:["imagecraft","IMAGETAG"],text:'" "',background:$(DEC)}
+
+0 - #00000000
+2147483647 - #
+
+ALPHA - RED - GREEN - BLUE
+
+#AaRrGgBb
+
+if(Aa<=7F)
+  dec = 268435456A+16777216a+1048576R+65536r+4096G+256g+16B+b;
+else
+  dec = 268435456A+16777216a+1048576R+65536r+4096G+256g+16B+b-4294967295;
